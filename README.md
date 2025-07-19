@@ -6,5 +6,3 @@ The Image shows the interface of AI-CHAT
 
 It gives the chat output as required and Uses Ollama as a tool and LLAMA model
 
-
-![Uploading image.png…]()
