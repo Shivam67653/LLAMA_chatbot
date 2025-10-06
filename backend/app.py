@@ -19,7 +19,7 @@ def chat():
             ["ollama", "run", "llama3", user_input],
             capture_output=True,
             text=True,
-            timeout=30
+            timeout=120
         )
         print(">>> OLLAMA STDOUT:", result.stdout)   # Output from model
         print(">>> OLLAMA STDERR:", result.stderr)   # Error, if any
